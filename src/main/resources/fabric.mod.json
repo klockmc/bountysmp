@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "bountysmp",
+  "version": "${version}",
+  "name": "BountySMP",
+  "description": "Sistema bounty settimanale con vite e resuscita.",
+  "authors": [
+    "BountySMP"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.bountysmp.BountySmpMod"
+    ]
+  },
+  "mixins": [
+    "bountysmp.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": "~1.21.8",
+    "java": ">=21"
+  }
+}
